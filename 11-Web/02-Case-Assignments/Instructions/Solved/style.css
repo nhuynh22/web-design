@@ -1,0 +1,139 @@
+/* 
+* Bootstrap Visualization Dashboard - CSS Style Sheet 
+*/
+
+/* Body */
+body {
+	background-image: url("https://images.unsplash.com/photo-1558470598-a5dda9640f68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=4351&q=80");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
+  /* Navbar */
+  .navbar {
+	max-height: 60px;
+  }
+  .navigation .navbar-brand {
+	color: rgb(92, 30, 235);
+	margin-left: 0px;
+	padding: inherit;
+	font-weight: bold;
+	background-color: white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+  .navbar {
+	background-color: white;
+	font-size: 25px; 
+  }
+  .active, .dropdown-menu .dropdown-item:active a:hover {
+	background-color: white !important;
+  }
+  .dropdown-item {
+	color: springgreen   !important;
+  }
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+	background-color: gray !important;
+  }
+  
+  .nav-link:hover {
+	background-color:rgb(235, 31, 201) !important;
+   }
+  
+  .navbar-brand:hover {
+  color: rgb(135, 235, 188) !important;
+  }
+  
+  a {
+	color: rgb(167, 231, 37);
+	font-size: 15px;
+  }
+  
+  /* Images */
+  img{
+	width:100% !important;
+	height:100% !important;
+  }
+  .active, .panel:hover {
+	border-color:#6385da;
+	border-style: solid;
+	
+  }
+  .vizualization {
+	width:50% !important;
+	height:50% !important;
+  }
+  
+  /* Title */
+  .title {
+	color: rgb(247, 166, 15);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	padding-top: 10px;
+  }
+  
+  /* Paragraph */
+  p {
+  color: rgb(237, 56, 56);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  }
+  
+  /* Box */
+  .box {
+	margin-top: 50px;
+	margin-bottom: 60px;
+	padding: 10px 30px 10px;
+	color: #213159;
+	background-color: white;
+  
+  }
+  /* Table */
+  .table {
+	font-size: 15px;
+	border-top-color: white !important;
+  }
+  
+  /* Footer */
+  footer {
+  background-color: white;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: rgb(242, 154, 168);
+  color: black;
+  min-height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px;
+  }
+  
+  /* Media Queries */
+  @media(max-width: 992px) {
+	.navbar-expand-lg {
+	background-color: #3061dd !important;
+	}
+	.navbar {
+	  max-height: none;
+	  padding: inherit;
+	}
+	.navbar div {
+	  margin: inherit;
+	  background-color: rgb(225, 191, 191);
+	}
+	.navbar-brand {
+	  padding: 10px !important;
+	}
+	button{
+	  margin-right: 30px;
+	}
+	button:focus {
+	  outline: 1px dotted;
+	  outline: auto 5px;
+	}
+  }
